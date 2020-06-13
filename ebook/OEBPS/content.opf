@@ -17,6 +17,7 @@
   <manifest>
     <item id="cover-image" href="images/cover.jpg" media-type="image/jpeg"/>
     <item id="cover" href="text/copertina.xhtml" media-type="application/xhtml+xml"/>
+    <item id="sommario" href="text/sommario.xhtml" media-type="application/xhtml+xml"/>
     <item id="biografia" href="text/biografia.xhtml" media-type="application/xhtml+xml"/>
     <item id="prefazione" href="text/prefazione.xhtml" media-type="application/xhtml+xml"/>
     <item id="la_rovina_della_casa_degli_usher" href="text/la_rovina_della_casa_degli_usher.xhtml" media-type="application/xhtml+xml"/>
@@ -25,6 +26,7 @@
   </manifest>
   <spine toc="ncx">
     <itemref idref="cover" linear="no"/>
+    <itemref idref="sommario"/>
     <itemref idref="biografia"/>
     <itemref idref="prefazione"/>
     <itemref idref="la_rovina_della_casa_degli_usher"/>
