@@ -14,25 +14,29 @@
   </head>
 
   <docTitle>
-    <text>My Kindle Book</text>
+    <text>La rovina della casa degli Usher</text>
   </docTitle>
 
   <docAuthor>
-    <text>Stagi, Andrea</text>
+    <text>Baronti, Benedetta</text>
   </docAuthor>
 
   <navMap>
     <navPoint class="toc" id="table" playOrder="1">
-      <navLabel><text>Table of Contents</text></navLabel>
-      <content src="toc.html" />
+      <navLabel><text>Sommario</text></navLabel>
+      <content src="text/toc.xhtml" />
     </navPoint>
-    <navPoint class="titlepage" id="L1T" playOrder="2">
-      <navLabel><text>CHAPTER 1</text></navLabel>
-      <content src="mykindlebook.html#chapter1" />
+    <navPoint class="toc" id="bio" playOrder="2">
+      <navLabel><text>Biografia</text></navLabel>
+      <content src="text/biografia.xhtml" />
     </navPoint>
-    <navPoint class="book" id="level1-book1" playOrder="3">
-      <navLabel><text>CHAPTER 2</text></navLabel>
-      <content src="mykindlebook.html#chapter2" />
+    <navPoint class="toc" id="pre" playOrder="3">
+      <navLabel><text>Prefazione</text></navLabel>
+      <content src="text/prefazione.xhtml" />
+    </navPoint>
+    <navPoint class="toc" id="text" playOrder="3">
+      <navLabel><text>La rovina della casa degli Usher</text></navLabel>
+      <content src="text/la_rovina_della_casa_degli_usher.xhtml" />
     </navPoint>
   </navMap>
 
