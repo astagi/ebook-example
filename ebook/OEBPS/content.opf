@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<package version="2.0" xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookId">
+
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:title>My Kindle Book</dc:title>
+    <dc:language>en</dc:language>
+    <dc:identifier id="BookId" opf:scheme="ISBN">123456789X</dc:identifier>
+    <dc:creator opf:file-as="Stagi, Andrea" opf:role="aut">Andrea Stagi</dc:creator>
+    <dc:publisher>Amazon.com</dc:publisher>
+    <dc:subject>Reference</dc:subject>
+    <dc:date>2020-06-07T00:00:00+01:00</dc:date>
+    <dc:rights>Copyright 2020</dc:rights>
+    <dc:description>A short description... </dc:description>
+    <meta name="cover" content="my-cover-image" />
+  </metadata>
+
+  <manifest>
+    <item id="cover-image" href="images/cover.jpg" media-type="image/jpeg"/>
+    <item id="biografia" href="text/biografia.xhtml" media-type="application/xhtml+xml"/>
+    <item id="prefazione" href="text/prefazione.xhtml" media-type="application/xhtml+xml"/>
+    <item id="la_rovina_della_casa_degli_usher" href="text/la_rovina_della_casa_degli_usher.xhtml" media-type="application/xhtml+xml"/>
+    <item id="css" href="css/style.css" media-type="text/css"/>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+  </manifest>
+  <spine toc="ncx">
+    <!-- <itemref idref="cover" linear="no"/> -->
+    <itemref idref="biografia"/>
+    <itemref idref="prefazione"/>
+    <itemref idref="la_rovina_della_casa_degli_usher"/>
+  </spine>
+  <guide>
+    <reference href="text/00_copertina.xhtml" type="cover" title="Cover"/>
+  </guide>
+</package>
