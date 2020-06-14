@@ -9,6 +9,10 @@ body {
 p {
   display:block;
   line-height:160%;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 h1, h2, h3, h4 {
@@ -33,4 +37,9 @@ img {
 .citazione {
   text-align: justify;
   font-style: italic;
+}
+
+.img-laterale {
+  float: right;
+  padding: 0 0 2em 2em;
 }
