@@ -26,6 +26,12 @@ img {
   height: auto;
 }
 
+.link-sommario {
+  font-weight:bold;
+  line-height:2em;
+  font-size:1.5em;
+}
+
 .testo-centrato {
   text-align: center;
 }
