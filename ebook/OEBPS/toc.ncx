@@ -24,7 +24,7 @@
   <navMap>
     <navPoint class="toc" id="table" playOrder="1">
       <navLabel><text>Sommario</text></navLabel>
-      <content src="text/toc.xhtml" />
+      <content src="text/sommario.xhtml" />
     </navPoint>
     <navPoint class="toc" id="bio" playOrder="2">
       <navLabel><text>Biografia</text></navLabel>
