@@ -26,6 +26,10 @@ img {
   text-align: center;
 }
 
+.testo-a-destra {
+  text-align: right;
+}
+
 .citazione {
   text-align: justify;
   font-style: italic;

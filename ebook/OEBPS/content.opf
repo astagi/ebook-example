@@ -20,6 +20,7 @@
     <item id="sommario" href="text/sommario.xhtml" media-type="application/xhtml+xml"/>
     <item id="biografia" href="text/biografia.xhtml" media-type="application/xhtml+xml"/>
     <item id="prefazione" href="text/prefazione.xhtml" media-type="application/xhtml+xml"/>
+    <item id="altre_opere" href="text/altre_opere.xhtml" media-type="application/xhtml+xml"/>
     <item id="la_rovina_della_casa_degli_usher" href="text/la_rovina_della_casa_degli_usher.xhtml" media-type="application/xhtml+xml"/>
     <item id="css" href="css/style.css" media-type="text/css"/>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
@@ -30,6 +31,7 @@
     <itemref idref="biografia"/>
     <itemref idref="prefazione"/>
     <itemref idref="la_rovina_della_casa_degli_usher"/>
+    <itemref idref="altre_opere"/>
   </spine>
   <guide>
     <reference href="text/copertina.xhtml" type="cover" title="Cover"/>

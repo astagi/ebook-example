@@ -38,6 +38,10 @@
       <navLabel><text>La rovina della casa degli Usher</text></navLabel>
       <content src="text/la_rovina_della_casa_degli_usher.xhtml" />
     </navPoint>
+    <navPoint class="toc" id="text" playOrder="4">
+      <navLabel><text>Altre opere</text></navLabel>
+      <content src="text/altre_opere.xhtml" />
+    </navPoint>
   </navMap>
 
 </ncx>
