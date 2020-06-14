@@ -11,7 +11,7 @@
     <dc:date>2020-06-07T00:00:00+01:00</dc:date>
     <dc:rights>Copyright 2020</dc:rights>
     <dc:description>"The Fall of the House of Usher" fu pubblicato nel settembre 1839 sul "Burton’s Gentleman’s Magazine". Poe ne mandò una copia a Washington Irving, che apprezzò la storia. Anche "La rovina della Casa degli Usher" è contenuto nella raccolta pubblicata nel 1911 da R. Bemporad e Figlio, Racconti straordinari. Com’era d’uso all’epoca, i nomi propri di persona sono stati tradotti in italiano, quindi Roderico e Maddalena sono rispettivamente Roderick e Madeline.</dc:description>
-    <meta name="cover" content="my-cover-image" />
+    <meta name="cover" content="cover-image" />
   </metadata>
 
   <manifest>
@@ -25,6 +25,7 @@
     <item id="css" href="css/style.css" media-type="text/css"/>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
   </manifest>
+
   <spine toc="ncx">
     <itemref idref="cover" linear="no"/>
     <itemref idref="sommario"/>
@@ -33,7 +34,9 @@
     <itemref idref="la_rovina_della_casa_degli_usher"/>
     <itemref idref="altre_opere"/>
   </spine>
+
   <guide>
     <reference href="text/copertina.xhtml" type="cover" title="Cover"/>
   </guide>
+
 </package>
