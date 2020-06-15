@@ -19,7 +19,7 @@ application/epub+zip
 
 - `OEBPS/content.opf` this is the file that explains what your epub book is. It includes `metadata` about the book (author, publish date, genre, ISBN and so on), `manifest` with a list of files in the content, `spine` that defines the reading order (to exclude a document from the natural order, e.g. the cover, specify `linear="no"`) and `guide` (deprecated in `ePub3`) that specifies the resources semantic meaning.
 
-- `tox.ncx` and `toc.html` define the table of contents
+- `tox.ncx` defines the table of contents
 
 ## Scripts
 
